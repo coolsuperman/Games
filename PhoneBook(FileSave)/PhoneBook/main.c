@@ -4,12 +4,10 @@
 
 int main()
 {
-	FILE* fp1 = fopen("../PhoneBook.txt", "w");
-	fclose(fp1);
-	printf("%s","通话录:");
+	printf("%s","通话录:\n");
 	PhoneBook FirstBook;
 	InitBook(&FirstBook);
-	Load(FirstBook);
+	Load(&FirstBook);
 	fun ChooseFun[10] = { AddContact,DeletContact,ChangeContact,FindContact,PrintAll,SortbyName,CleanAll};
 	int choice = 0;
 	do
@@ -22,7 +20,7 @@ int main()
 			ChooseFun[4](&FirstBook);
 		}
 	} while (choice);
-	Save(FirstBook);
+	Save(&FirstBook);
 	free(FirstBook.Book);
 	system("pause");
 	return 0;

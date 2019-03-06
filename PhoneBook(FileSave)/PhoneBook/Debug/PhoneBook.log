@@ -1,6 +1,9 @@
-﻿生成启动时间为 2019/3/7 0:17:31。
+﻿生成启动时间为 2019/3/7 0:23:34。
      1>项目“D:\Code\Games\PhoneBook(FileSave)\PhoneBook\PhoneBook.vcxproj”在节点 2 上(Build 个目标)。
-     1>Link:
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TC /analyze- /errorReport:prompt main.c
+         main.c
+       Link:
          C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Code\Games\PhoneBook(FileSave)\Debug\PhoneBook.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\Code\Games\PhoneBook(FileSave)\Debug\PhoneBook.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Code\Games\PhoneBook(FileSave)\Debug\PhoneBook.lib" /MACHINE:X86 Debug\Contact.obj
          Debug\main.obj
          PhoneBook.vcxproj -> D:\Code\Games\PhoneBook(FileSave)\Debug\PhoneBook.exe
@@ -8,4 +11,4 @@
 
 已成功生成。
 
-已用时间 00:00:00.23
+已用时间 00:00:00.41
